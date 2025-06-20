@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1295,7 +1298,7 @@ input, select, textarea {
 			border-radius: 100%;
 		}
 
-			#header .logo .icon:before {
+		#header .logo .icon:before {
 				font-size: 2rem;
 			}
 
@@ -1546,7 +1549,9 @@ input, select, textarea {
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
 			opacity: 0;
+			margin-top: 0.25rem;
 		}
+			
 
 			#main article.active {
 				-moz-transform: translateY(0);
@@ -1656,3 +1661,17 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		#about h3 {
+  margin-bottom: 0.5rem;
+  margin-top: 2rem; /* adjust this if you want more or less vertical spacing between roles */
+}
+
+#about .image.main {
+  margin-bottom: 0.5rem; /* reduce space under the image */
+}
+
+#about p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
