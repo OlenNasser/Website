@@ -20,13 +20,13 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-gem"></span>
+							<img src="images/hammer-icon.png" alt="Hammer Icon" style="width: 100px; height: 100px; object-fit: contain; position: relative; top: -6px; right: 6px;" />
 						</div>
+
 						<div class="content">
 							<div class="inner">
-								<h1>Dimension</h1>
-								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+								<h1>LJ Handymen</h1>
+								<p>Your local handymen company for renovations, landscaping, repairs, and much more!</p>
 							</div>
 						</div>
 						<nav>
@@ -47,29 +47,43 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<p>LJ Handymen is a locally owned and operated handyman services provider, established in May 2025.<p>
+
+								</p>We specialize in residential and light commercial renovations, landscaping, general repairs, and property maintenance solutions tailored to the needs of homeowners, landlords, and businesses.
+
+Founded on principles of reliability, professionalism, and workmanship integrity, LJ Handymen is committed to delivering consistent, high-quality service on every project.<p>
+
+</p> Our team combines practical experience with a customer-focused approach, ensuring that each task is completed efficiently, safely, and to the highest standard.
+
+Proudly serving our local community, we aim to be the go-to partner for dependable, cost-effective solutions — no matter the size or scope of the job.</p>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<p>Add images of previous projects</p>
 							</article>
 
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<h3> Chief Executive Officer </h3>
+								<span class="image main"><img src="images/picCEO.JPG" alt="" /></span>
+								<p>Our CEO and founder Joe Hoes. Add story</p>
+								<h3> Chief Engineering Officer </h3>
+								<span class="image main"><img src="images/picENG.PNG" alt="" /></span>
+								<p>Our Chief Engineering Officer and cofounder Lewis Orwell. Add story</p>
+								<h3>Marketing Director</h3>
+								<span class="image main"><img src="images/picMark.JPG" alt="" /></span>
+								<p>Our Marketing Director Neggerite Patel. Add story</p>
+								
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
+								<form method="POST" action="https://formsubmit.co/b4b6c4f2a9400d5d998b89642e9bb8e7">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -80,7 +94,7 @@
 											<input type="text" name="email" id="email" />
 										</div>
 										<div class="field">
-											<label for="message">Message</label>
+											<label for="message">Describe Job (Optional: Add Phone Number)</label>
 											<textarea name="message" id="message" rows="4"></textarea>
 										</div>
 									</div>
@@ -289,50 +303,40 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 								<section>
 									<h3 class="major">Form</h3>
-									<form method="post" action="#">
+									<form id="contact-form" method="POST" action="https://formsubmit.co/ljhandymen@gmail.com">
+										<input type="hidden" name="_captcha" value="false">
+										<input type="hidden" name="_subject" value="New LJ Handymen Contact Form Submission">
+										<input type="hidden" name="_template" value="box">
+										<input type="hidden" name="_redirect" value="false">
+										<input type="email" name="email">
+
+
 										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" placeholder="Jane Doe" required />
 										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="email" name="email" id="email" placeholder="jane@untitled.tld" required />
+										</div>
+
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" placeholder="Enter your message" rows="6" required></textarea>
+										</div>
+										</div>
+										<div id="thank-you-popup" style="display:none; position:fixed; top:30%; left:50%; transform:translate(-50%, -50%);
+										background:rgba(0,0,0,0.9); color:white; padding:2rem 3rem; border-radius:10px; z-index:1000; text-align:center;">
+										<h2>Thank You!</h2>
+										<p>Your message has been sent. We’ll get back to you shortly.</p>
+										<button onclick="document.getElementById('thank-you-popup').style.display='none'" style="margin-top: 1rem;" class="button primary">Close</button>
+										</div>
+
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+										<li><input type="reset" value="Reset" /></li>
 										</ul>
 									</form>
 								</section>
@@ -343,7 +347,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; LJ Handymen Company</p>
 					</footer>
 
 			</div>
