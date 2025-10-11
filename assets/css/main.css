@@ -1364,7 +1364,7 @@ input, select, textarea {
 			}
 
 				#header nav ul li:first-child {
-					border-left: 0;
+					border-left: 0;k
 				}
 
 				#header nav ul li a {
@@ -1685,4 +1685,11 @@ input, select, textarea {
 #about p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+
+figcaption {
+  color: white;
+  padding: 0px;
+  text-align: center;
 }
