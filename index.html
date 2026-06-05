@@ -5,8 +5,32 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+	<style>
+    /* Stack the navigation rows vertically */
+    #header nav {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Add a clean divider line and make the row full width */
+    #free-quote-row {
+        width: 100%;
+        border-top: solid 1px #ffffff; 
+    }
+    
+    /* Force the list item to take up all available space and remove vertical dividers */
+    #free-quote-row li {
+        width: 100%;
+        border-left: none !important;
+    }
+    
+    /* Center the text inside the button */
+    #free-quote-row li a {
+        text-align: center;
+    }
+</style>
 	<head>
-		<title>LnJ Handymen</title>
+		<title>LnJ Home Services</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -26,17 +50,30 @@
 
 						<div class="content">
 							<div class="inner">
-								<h1>LnJ Handymen</h1>
+								<h1>LnJ Home Services</h1>
 								<p>Your local handymen company for renovations, landscaping, repairs, and much more!</p>
 							</div>
 						</div>
+						<style>
+							#header nav::before,
+							#header nav::after,
+							#header nav ul::before,
+							#header nav ul::after {
+								display: none !important;
+							}
+						</style>
+
 						<nav>
-							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
+							<ul style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
+								<li style="border-bottom: 1px solid rgba(255, 255, 255, 0.3); border-left: none;"><a href="#intro">Intro</a></li>
+								<li style="border-bottom: 1px solid rgba(255, 255, 255, 0.3); border-left: 1px solid rgba(255, 255, 255, 0.3);"><a href="#work">Work</a></li>
+								<li style="border-bottom: 1px solid rgba(255, 255, 255, 0.3); border-left: 1px solid rgba(255, 255, 255, 0.3);"><a href="#about">About</a></li>
+								
+								<li style="grid-column: 1 / 4; border-left: none !important;">
+									<a href="#contact" style="display: block; text-align: center;">Free Quote</a>
+								</li>
+
+								
 							</ul>
 						</nav>
 					</header>
@@ -48,11 +85,11 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>LnJ Handymen is a locally owned and operated handyman services provider, established in May 2025.<p>
+								<p>LnJ Home Services is a locally owned and operated handyman services provider, established in May 2025.<p>
 
 								</p>We specialize in residential and light commercial renovations, landscaping, general repairs, and property maintenance solutions tailored to the needs of homeowners, landlords, and businesses.
 
-Founded on principles of reliability, professionalism, and workmanship integrity, LnJ Handymen is committed to delivering consistent, high-quality service on every project.<p>
+Founded on principles of reliability, professionalism, and workmanship integrity, LnJ Home Services is committed to delivering consistent, high-quality service on every project.<p>
 
 </p> Our team combines practical experience with a customer-focused approach, ensuring that each task is completed efficiently, safely, and to the highest standard.
 
@@ -61,7 +98,7 @@ Proudly serving our local community, we aim to be the go-to partner for dependab
 
 						<!-- Work -->
 							<article id="work">
-								<h2 class="major">Work</h2>
+								<h2 class="major">Prior Work</h2>
 
 								<h3>Previous Works of Note</h3>
 
@@ -109,18 +146,15 @@ Proudly serving our local community, we aim to be the go-to partner for dependab
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<p>A group of university students, frustrated by the constant struggle to find reliable and affordable help for small repairs around their campus housing, 
-									decided to take matters into their own hands. Combining their studies in engineering, business, 
-									and marketing, they founded a student-run handymen company that offered quick, trustworthy repair and maintenance services to fellow students and local residents. 
-									What started as a side hustle fixing leaky faucets and assembling furniture soon grew into a fully registered business with a booking app, clear pricing,
-									and a reputation for professionalism. Their company not only provided practical help to the community but also gave them real-world experience in teamwork, 
-									entrepreneurship, and customer service—turning classroom lessons into hands-on success.</p>
+								<p>A university student, frustrated by the constant struggle to find reliable and affordable help for small repairs around their campus housing, 
+									decided to take matters into their own hands. Founding a student-run handymen company that offered quick, trustworthy repair and maintenance services to fellow students and local residents. 
+									What started as fixing leaky faucets and assembling furniture soon grew into a fully registered business with a booking website and a reputation for professionalism. LnJ House Services not only provided practical help to the community but also gave a great experience.</p>
 								
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
-								<h2 class="major">Contact</h2>
+								<h2 class="major">Free Quote</h2>
 								<form method="POST" action="https://formsubmit.co/b4b6c4f2a9400d5d998b89642e9bb8e7">
 									<div class="fields">
 										<div class="field half">
@@ -142,10 +176,8 @@ Proudly serving our local community, we aim to be the go-to partner for dependab
 									</ul>
 								</form>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									Call for a free quote: 1-(647)-581-1307    
+									<li><a href="tel:+16475811307" class="icon solid fa-phone"><span class="label">Phone</span></a></li>
 								</ul>
 							</article>
 
@@ -379,7 +411,7 @@ Proudly serving our local community, we aim to be the go-to partner for dependab
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; LnJ Handymen Company</p>
+						<p class="copyright">&copy; LnJ Home Services Company</p>
 					</footer>
 
 			</div>
